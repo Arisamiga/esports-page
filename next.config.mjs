@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
   turbopack: {
     rules: {
       // Tells Turbopack to pass any .yaml or .yml file through yaml-loader

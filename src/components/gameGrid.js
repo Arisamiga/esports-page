@@ -27,7 +27,7 @@ export default function GameGrid() {
           <div className="avatar">
             <div className="w-12 h-12 rounded-lg relative overflow-hidden">
               <Image
-                src={`./games/${game.slug}.${game.ext}`}
+                src={`/games/${game.slug}.${game.ext}`}
                 alt={game.title}
                 fill
                 className="object-cover"
