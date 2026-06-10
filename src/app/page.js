@@ -19,15 +19,22 @@ export default function Home() {
         </div>
 
         <Committee />
-        
+
         <h2 className="text-3xl font-bold mb-4">
           Welcome to DCU Esports Society!
         </h2>
-        
+
         <p className="mb-4 text-base-content/80 text-lg leading-relaxed">
-          DCU Eports Society is a student-run organization dedicated to promoting competitive gaming and gaming culture on campus.
-The society brings together students with a shared interest in video games, providing a platform for them to connect, socialize and compete in a variety of popular titles such as League of Legends, CS2, Rocket League and Valorant.
-The society also hosts regular events, tournaments, and gaming sessions, giving members the chance to hone their skills, make new friends, and showcase their talent. With a vibrant and diverse community of gamers, DCU eSports Society is a welcoming and inclusive space for anyone passionate about gaming.
+          DCU Eports Society is a student-run organization dedicated to
+          promoting competitive gaming and gaming culture on campus. The society
+          brings together students with a shared interest in video games,
+          providing a platform for them to connect, socialize and compete in a
+          variety of popular titles such as League of Legends, CS2, Rocket
+          League and Valorant. The society also hosts regular events,
+          tournaments, and gaming sessions, giving members the chance to hone
+          their skills, make new friends, and showcase their talent. With a
+          vibrant and diverse community of gamers, DCU eSports Society is a
+          welcoming and inclusive space for anyone passionate about gaming.
         </p>
 
         <h3 className="text-2xl font-semibold mb-4">Our Games</h3>
