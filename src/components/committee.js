@@ -1,10 +1,10 @@
-import members from "../data/committee.yaml";
+import site from "../data/site.yaml";
 import Image from "next/image";
 export default function Committee() {
   return (
     <div className="relative w-full max-w-7xl mx-auto px-6 py-4">
       <div className="flex flex-row gap-4 overflow-x-auto p-4 w-full">
-        {members.map((member, index) => (
+        {site.committee.map((member, index) => (
           <div
             key={index}
             className="carousel-item w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(25%-18px)]"
@@ -34,11 +34,6 @@ export default function Committee() {
                 >
                   {member.role}
                 </div>
-
-                <p className="text-sm text-base-content/70 mt-2">
-                  {member.bio}
-                </p>
-
                 <div className="card-actions mt-4">
                   <a
                     href={`mailto:${member.email}`}

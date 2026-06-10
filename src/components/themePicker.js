@@ -1,7 +1,7 @@
 export default function ThemePicker() {
   return (
     <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn m-1">
+      <div tabIndex={0} role="button" className="btn m-1" id="theme-dropdown">
         Theme
         <svg
           width="12px"
@@ -15,7 +15,7 @@ export default function ThemePicker() {
       </div>
       <ul
         tabIndex="-1"
-        className="dropdown-content bg-base-300 rounded-box z-1 w-52 p-2 shadow-2xl"
+        className="dropdown-content bg-base-300 rounded-box z-1 w-fit p-2 shadow-2xl"
       >
         <li>
           <input

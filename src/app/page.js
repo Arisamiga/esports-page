@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import GameGrid from "../components/gameGrid";
 import Committee from "../components/committee";
+import CoverCarousel from "../components/coverCarousel";
 
 export default function Home() {
   return (
@@ -9,13 +10,7 @@ export default function Home() {
       <Navbar />
       <main className="p-4 max-w-4xl mx-auto">
         <div className="flex flex-col items-center gap-6 text-center">
-          <Image
-            src="/cover.png"
-            alt="DCU Esports Cover Image"
-            width={800}
-            height={400}
-            className="rounded-lg mb-6 shadow-xl"
-          />
+          <CoverCarousel />
         </div>
 
         <Committee />
