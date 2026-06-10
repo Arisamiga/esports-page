@@ -4,8 +4,7 @@ export default function Committee() {
  return (
     <div className="relative w-full max-w-7xl mx-auto px-6 py-4">
       
-      {/* Added overflow-x-auto to enable horizontal scrolling/swiping */}
-      <div className="carousel carousel-center w-full overflow-x-visible p-4 space-x-6 bg-base-100 rounded-box">
+      <div className="flex flex-row gap-4 overflow-x-auto p-4 w-full">
         
         {members.map((member, index) => (
           <div 
