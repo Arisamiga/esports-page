@@ -23,7 +23,7 @@ export default function GameGrid() {
     <div key={game.slug} className="flex items-center gap-4 p-3 bg-base-100 hover:bg-base-200 border border-base-300 rounded-xl shadow-sm transition-all cursor-pointer">
       <div className="avatar">
         <div className="w-12 h-12 rounded-lg relative overflow-hidden">
-          <Image src={`/games/${game.slug}.${game.ext}`} alt={game.title} fill className="object-cover" />
+          <Image src={`./games/${game.slug}.${game.ext}`} alt={game.title} fill className="object-cover" />
         </div>
       </div>
       <div>

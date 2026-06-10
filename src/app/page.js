@@ -10,7 +10,7 @@ export default function Home() {
       <main className="p-4 max-w-4xl mx-auto">
         <div className="flex flex-col items-center gap-6 text-center">
           <Image
-            src="/cover.png"
+            src="./cover.png"
             alt="DCU Esports Cover Image"
             width={800}
             height={400}

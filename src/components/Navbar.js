@@ -25,7 +25,7 @@ export default function Navbar() {
     </div>
     <Link href="/" className="btn btn-ghost text-xl">
       <Image
-          src="/esports.png"
+          src="./esports.png"
           alt="Esports Logo"
           width={40}
           height={40}
