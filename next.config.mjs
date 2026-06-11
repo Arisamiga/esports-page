@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 
+const NODE_ENV = process.env.NODE_ENV || "";
+
 const nextConfig = {
+  basePath: NODE_ENV === "production" ? "/esports-page" : "",
   output: "export",
   images: {
     unoptimized: true,
