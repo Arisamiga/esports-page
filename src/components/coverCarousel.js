@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import site from "../data/site.yaml";
-import Image from "next/image";
+import Image from "@/components/image";
 
 const IMAGES = site.pictures || [];
 

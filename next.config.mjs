@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-const NODE_ENV = process.env.NODE_ENV || "";
+const NEXT_PUBLIC_BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const nextConfig = {
-  basePath: NODE_ENV === "production" ? "/esports-page" : "",
+  basePath: NEXT_PUBLIC_BASE_PATH || "",
   output: "export",
   images: {
     unoptimized: true,

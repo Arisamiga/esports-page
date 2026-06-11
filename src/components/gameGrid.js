@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/image";
 
 const GAMES_DATA = [
   { slug: "leagueoflegends", title: "League Of Legends", ext: "jpg" },

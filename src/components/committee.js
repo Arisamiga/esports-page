@@ -1,5 +1,7 @@
 import site from "../data/site.yaml";
-import Image from "next/image";
+import Image from "@/components/image";
+
+console.log(site.committee);
 export default function Committee() {
   return (
     <div className="relative w-full max-w-7xl mx-auto px-6 py-4">
@@ -20,7 +22,6 @@ export default function Committee() {
                       alt={member.name}
                       width={96}
                       height={96}
-                      className="hidden"
                     />
                   </div>
                 </div>
