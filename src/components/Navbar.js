@@ -115,7 +115,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end mr-4">
+      <div className="navbar-end pr-4">
         <ThemePicker />
       </div>
     </div>
