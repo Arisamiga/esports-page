@@ -1,7 +1,6 @@
 import site from "../data/site.yaml";
 import Image from "@/components/image";
 
-console.log(site.committee);
 export default function Committee() {
   return (
     <div className="relative w-full max-w-7xl mx-auto px-6 py-4">
@@ -9,7 +8,7 @@ export default function Committee() {
         {site.committee.map((member, index) => (
           <div
             key={index}
-            className="carousel-item w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(25%-18px)]"
+            className="carousel-item shrink-0 flex flex-col items-center gap-4 w-fit"
           >
             <div className="card w-full bg-base-200 shadow-sm border border-base-300">
               <figure className="px-6 pt-6">
