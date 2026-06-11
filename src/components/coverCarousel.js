@@ -25,7 +25,7 @@ export default function CoverCarousel() {
   }, [currentSlide]);
 
   return (
-    <div className="relative w-full overflow-hidden rounded-xl">
+    <div className="relative w-full overflow-hidden rounded-xl shadow-md">
       {/* Wrapper with horizontal sliding transition */}
       <div
         className="flex transition-transform duration-700 ease-in-out"
