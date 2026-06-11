@@ -13,6 +13,7 @@ export default function Home() {
           <CoverCarousel />
         </div>
 
+        <h2 className="text-2xl font-semibold mt-8">Meet the Committee</h2>
         <Committee />
 
         <h2 className="text-3xl font-bold mb-4">

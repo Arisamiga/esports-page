@@ -3,7 +3,7 @@ import Image from "@/components/image";
 
 export default function Committee() {
   return (
-    <div className="relative w-full py-4">
+    <div className="relative w-full pb-14">
       <div className="flex flex-row gap-4 mx-auto overflow-x-scroll p-4 w-full">
         {site.committee.map((member, index) => (
           <div
@@ -33,14 +33,6 @@ export default function Committee() {
                   className={`badge badge-${member.badgeColor || "primary"} font-medium tracking-wide`}
                 >
                   {member.role}
-                </div>
-                <div className="card-actions mt-4">
-                  <a
-                    href={`mailto:${member.email}`}
-                    className="btn btn-sm btn-outline btn-ghost"
-                  >
-                    Contact
-                  </a>
                 </div>
               </div>
             </div>

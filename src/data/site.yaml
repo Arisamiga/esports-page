@@ -1,34 +1,79 @@
 committee:
   - name: "Jane Doe"
-    role: "Committee Chair"
+    role: "Chairperson"
     badgeColor: "primary"
     img: "/committee/person.jpg"
-    email: "jane@example.com"
+
+  - name: "Jane Doe"
+    role: "Vice Chairperson"
+    badgeColor: "primary"
+    img: "/committee/person.jpg"
+
   - name: "John Smith"
-    role: "Vice Chair"
+    role: "Secretary"
     badgeColor: "secondary"
     img: "/committee/person.jpg"
     email: "john@example.com"
+
   - name: "Sarah Jenkins"
     role: "Treasurer"
     badgeColor: "accent"
     img: "/committee/person.jpg"
-    email: "sarah@example.com"
+
   - name: "Sarah Jenkins"
     role: "Treasurer"
     badgeColor: "accent"
     img: "/committee/person.jpg"
-    email: "sarah@example.com"
+
   - name: "Sarah Jenkins"
-    role: "Treasurer"
+    role: "Accessibility Officer"
     badgeColor: "accent"
     img: "/committee/person.jpg"
-    email: "sarah@example.com"
+
   - name: "Sarah Jenkins"
-    role: "Treasurer"
+    role: "Public Relations Officer"
     badgeColor: "accent"
     img: "/committee/person.jpg"
-    email: "sarah@example.com"
+
+  - name: "Sarah Jenkins"
+    role: "Equipment Officer"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
+
+  - name: "Sarah Jenkins"
+    role: "Equipment Officer"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
+
+  - name: "Sarah Jenkins"
+    role: "Graphic Design Officer"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
+
+  - name: "Sarah Jenkins"
+    role: "Tournament Officer"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
+
+  - name: "Sarah Jenkins"
+    role: "Trips Officer"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
+
+  - name: "Sarah Jenkins"
+    role: "Ordinary Committee Member"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
+
+  - name: "Sarah Jenkins"
+    role: "Ordinary Committee Member"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
+
+  - name: "Sarah Jenkins"
+    role: "First Year Rep"
+    badgeColor: "accent"
+    img: "/committee/person.jpg"
 pictures:
   - "/rolling/1.jpg"
   - "/rolling/2.jpg"
