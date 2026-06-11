@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-base-100 text-base-content transition-colors duration-200">
       <Navbar />
-      <main className="p-4 max-w-4xl mx-auto">
+      <main className="p-4 w-full mx-auto">
         <div className="flex flex-col items-center gap-6 text-center">
           <CoverCarousel />
         </div>

@@ -3,15 +3,15 @@ import Image from "@/components/image";
 
 export default function Committee() {
   return (
-    <div className="relative w-full max-w-7xl mx-auto px-6 py-4">
-      <div className="flex flex-row gap-4 overflow-x-auto p-4 w-full">
+    <div className="relative w-full py-4">
+      <div className="flex flex-row gap-4 mx-auto overflow-x-scroll p-4 w-full">
         {site.committee.map((member, index) => (
           <div
             key={index}
             className="carousel-item shrink-0 flex flex-col items-center gap-4 w-fit"
           >
             <div className="card w-full bg-base-200 shadow-sm border border-base-300">
-              <figure className="px-6 pt-6">
+              <figure className=" pt-6">
                 <div className="avatar">
                   <div
                     className={`w-24 h-24 rounded-full ring ring-${member.badgeColor || "primary"} ring-offset-base-100 ring-offset-2`}
