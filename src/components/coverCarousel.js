@@ -25,7 +25,7 @@ export default function CoverCarousel() {
   }, [currentSlide]);
 
   return (
-    <div className="relative w-full overflow-hidden rounded-xl shadow-md">
+    <div className="relative w-full max-w-7xl overflow-hidden rounded-xl shadow-md">
       {/* Wrapper with horizontal sliding transition */}
       <div
         className="flex transition-transform duration-700 ease-in-out"
@@ -34,14 +34,14 @@ export default function CoverCarousel() {
         {IMAGES.map((src, index) => (
           <div
             key={index}
-            className="w-full shrink-0 relative min-h-75 max-h-125 aspect-video"
+            className="w-full shrink-0 relative min-h-75 max-h-150 aspect-video"
           >
             <Image
               src={src}
               alt={`Slide ${index + 1}`}
               fill
               priority={index === 0}
-              className="object-cover min-h-75 max-h-125"
+              className="object-cover min-h-75 max-h-150"
             />
           </div>
         ))}
