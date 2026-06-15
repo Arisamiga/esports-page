@@ -4,6 +4,8 @@ import GameGrid from "../components/gameGrid";
 import Committee from "../components/committee";
 import CoverCarousel from "../components/coverCarousel";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-base-100 text-base-content transition-colors duration-200">
@@ -11,6 +13,17 @@ export default function Home() {
       <main className="p-4 w-full mx-auto">
         <div className="flex flex-col items-center gap-6 text-center">
           <CoverCarousel />
+        </div>
+
+        <div className="flex justify-center mt-6">
+          <Link
+            href="https://dcuclubsandsocs.ie/society/esport"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary btn-lg"
+          >
+            Sign up!
+          </Link>
         </div>
 
         <h2 className="text-2xl font-semibold mt-8">Meet the Committee</h2>
