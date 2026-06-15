@@ -64,6 +64,11 @@ export default function Navbar() {
                 Instagram
               </Link>
             </li>
+            <li>
+              <div>
+                <ThemePicker />
+              </div>
+            </li>
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
@@ -115,7 +120,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end pr-4">
+      <div className="navbar-end pr-4 hidden lg:flex">
         <ThemePicker />
       </div>
     </div>
